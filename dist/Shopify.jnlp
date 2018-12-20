@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Shopify.jnlp">
+  <information>
+    <title>Shopify</title>
+    <vendor>justdemo</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Shopify.jar" size="617107" download="eager" />
+    <jar href="lib/postgresql-42.2.5.jar" size="825943" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Shopify" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="shopify.Shopify"  name="Shopify" />
+  <update check="always"/>
+</jnlp>
